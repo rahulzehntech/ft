@@ -173,7 +173,11 @@
               </div>
           </div>
 
-          <form action="" class="col-md-6  container-fluid">
+          <div class="col-md-4 container-fluid font pt-5 h3">
+            <p style="color: red;">This is a review form</p>
+          </div>
+
+          <form action="" class="col-md-6  container-fluid" id="form3">
             <div class="mb-3">
                 <label for="exampleInputname1" class="form-label">Full Name</label>
                 <input type="text" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" style="max-width: 350px;">
@@ -193,6 +197,18 @@
     
             <button type="submit" class="btn btn-success" value="Submit">Submit</button>
           </form>
+
+          <script>
+            const form = document.getElementById('form3');
+          
+            form.addEventListener('submit', function(event) {
+              if (!form.checkValidity()) {
+                event.preventDefault(); // Prevent form submission if it's invalid
+                alert('Please fill out all required fields correctly.');
+              }
+            });
+          </script>
+          
       </footer>
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
