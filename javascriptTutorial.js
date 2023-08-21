@@ -1,8 +1,14 @@
 $(document).ready(function () {
-    $("form1").click(function () { 
-        
-        $("#appendbutton").before("<h1>hello this is after</h1>");
+    
+    $("#card1").click(function () { 
+       $(this).animate({
+        bottom : '100px'
+       })
         
     });
-   
+
+    $("#card1").on("mouseover mouseout, click", function (event) {
+        $("#card1 card-title").html(event.type + " : " +event.which);
+        
+    });
 });

@@ -8,12 +8,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
 </head>
 
 
-<body class="bg-dark-subtle text-emphasis-dark ">
+<body class="text-emphasis-dark" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
 
-      <nav  class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+      <nav  class="navbar navbar-expand-md bg-light navbar-light sticky-top transparent-navbar">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -37,126 +38,146 @@
       </nav><br>
 
 
+
       
-
-       
-    <h3 class="text-center m-lg-2">
-      <u>This is a form</u>
-      <small class="text-body-secondary">(This is a demo form)</u></small>
-    </h3><br>
-
-
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="download (1).jpg" class="d-block w-50 p-4 justify-content-center" alt="...">
-          <div class="carousel-caption d-none d-md-block ">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+      <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
           </div>
+          <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+         
         </div>
         
-        <div class="carousel-item">
-          <img src="download.jpg" class="d-flex w-50 p-4 " alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-       
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div><br><br>
-
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
 
 
      
 
-      <div class="container-fluid bg-dark p-3">
-        <div class="row">
-          <div class="col-md-6">
-            <!-- Left-hand side with portrait images -->
-            <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-              <img src="image3.jpg" alt="Portrait 1" class="img-fluid w-50 h-50 m-auto">
-              <img src="image4.jpg" alt="Portrait 2" class="img-fluid w-50 h-50 ">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <!-- Right-hand side with text and heading -->
-            <div class="text-center mt-5 pt-5 text text-white p-3">
-              <h2>Text Heading</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab commodi architecto numquam unde voluptatum nulla praesentium dolorem sed fuga ratione? Atque perferendis, explicabo ut architecto aliquam neque fuga! Nobis, explicabo!</p> <br>
+      <div style="background-color: #6b4db9;">
 
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab commodi architecto numquam unde voluptatum nulla praesentium dolorem sed fuga ratione? Atque perferendis, explicabo ut architecto aliquam neque fuga! Nobis, explicabo!</p> <br>
-            </div>
+        <div class="bg-image img-fluid">
+          <img src="image6.jpg" class="opacity-50 w-100 h-50 p-4" />
+          <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5)">
+            <h4>Custom heading</h4>
+            <p class="m-0">paragraph</p>
           </div>
         </div>
+           
       </div>
 
       <div class="col-md-8 mx-auto">
-        <!-- Right-hand side with text and heading -->
         <div class="text-center mt-5 px-4">
-          <h2>Text Heading</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab commodi architecto numquam unde voluptatum nulla praesentium dolorem sed fuga ratione? Atque perferendis, explicabo ut architecto aliquam neque fuga! Nobis, explicabo!</p> <br>
-
-                </div>
+          <h2 class="fw-bold">AWESOME FEATURES</h2>
+          <p  style="width: 50rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab commodi architecto numquam unde voluptatum nulla praesentium dolorem sed fuga ratione? Atque perferendis, explicabo ut architecto aliquam neque fuga! Nobis, explicabo!</p> <br>
+        </div>
       </div>
 
-      <div class="row ">
-      <div class="container mt-5  col-md-3 card floating-card">
+
+
+      <div class="row mb-md-1">
+           <div class="container mt-6  col-md-1 card floating-card shadow"  style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">Card Title</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="cardcontainer visually-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-          </div>
-
+            </div>
+       
      
-            <div class="container mt-5  col-md-3 card floating-card">
+            <div class="container mt-6  col-md-2 card floating-card shadow" style="width: 18rem;" >
                     <div class="card-body">
                       <h5 class="card-title">Card Title</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                </div>
+            </div>
      
      
-                  <div class="container mt-5 col-md-3 card floating-card">
+            <div class="container mt-6 col-md-2 card floating-card shadow" style="width: 18rem;">
                           <div class="card-body">
                             <h5 class="card-title">Card Title</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                           </div>
-                        </div>
-
+                  </div>   
                         
+                        <div class="container mt-6 col-md-2 card floating-card shadow" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                        </div>   
         </div><br><br>
-
         
-        <footer class="bg-dark text-light py-4 container-fluid ">
+
+        <div style="background-color: #6b4db9;">
+
+          
+        <div class="text-light p-lg-5 overlay">
+          
+            <h1 class="fw-bold">KEY BENEFITS</h1>
+            <P class="text-wrap" style="width: 50rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex consectetur delectus aspernatur, esse ratione cupiditate a natus eos dolore autem quasi. Laudantium repellendus maiores dolore numquam harum velit fuga qui.</P>
+            
+            <div class=" p-lg-3 card floating-card shadow w-50 ">
+
+              <div class="card-body">
+                <h5 class="card-title">PUBLIC SECURITY</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div><br>
+
+              <div class="card-body">
+                <h5 class="card-title">PUBLIC SECURITY</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div><br>
+
+              <div class="card-body">
+                <h5 class="card-title">PUBLIC SECURITY</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+
+            </div> 
+          </div> 
+          </div>
+        </div>
+        
+        <footer class=" text-dark py-4 container-fluid " style="color: #f7f7f7;">
           <div class="container">
               <div class="row">
 
                 <div class="col-md-3 ">
-                  <h3>Lorem ipsum dolor sit amet.</h3>
+                  <h3 class="fw-bold">ABOUT</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cumque, ratione quam dignissimos unde maiores mollitia fuga? Dolorum suscipit nihil temporibus, esse ipsum accusamus cumque, laudantium odio deleniti voluptates ipsa.</p>
                 </div>
                   <div class="col-md-3">
-                      <h5>Contact Us</h5>
-                      <p>Email: contact@example.com</p>
-                      <p>Phone: (123) 456-7890</p>
+                      <h5 class="fw-bold">Contact Us</h5>
+                      <p >Email: contact@example.com</p>
+                      <p >Phone: (123) 456-7890</p>
                   </div>
                   <div class="col-md-3">
-                      <h5>Quick Links</h5>
+                      <h5 class="fw-bold">Quick Links</h5> 
                       <ul class="list-unstyled">
                           <li><a href="#">Home</a></li>
                           <li><a href="#">About</a></li>
@@ -165,49 +186,13 @@
                       </ul>
                   </div>
                   <div class="col-md-3">
-                      <h5>Follow Us</h5>
-                      <a href="#" class="text-light">Facebook</a> |
-                      <a href="#" class="text-light">Twitter</a> |
-                      <a href="#" class="text-light">Instagram</a>
+                      <h5 class="fw-bold">Follow Us</h5>
+                      <a href="#" class="text-dark">Facebook</a> |
+                      <a href="#" class="text-dark">Twitter</a> |
+                      <a href="#" class="text-dark">Instagram</a>
                   </div>
               </div>
-          </div>
-
-          <div class="col-md-4 container-fluid font pt-5 h3">
-            <p style="color: red;">This is a review form</p>
-          </div>
-
-          <form action="" class="col-md-6  container-fluid" id="form3">
-            <div class="mb-3">
-                <label for="exampleInputname1" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" style="max-width: 350px;">
-              </div>
-    
-              <div class="mb-3">
-                <label for="exampleInputaddress1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputaddress1" aria-describedby="addressemail" style="max-width: 350px;">
-              </div>
-    
-            
-    
-              <div class="form-group mt-2">
-                <label>Example textarea</label>
-                <textarea class="form-control" placeholder="Enter about atleast 100 words"></textarea>
-            </div><br>
-    
-            <button type="submit" class="btn btn-success" value="Submit">Submit</button>
-          </form>
-
-          <script>
-            const form = document.getElementById('form3');
-          
-            form.addEventListener('submit', function(event) {
-              if (!form.checkValidity()) {
-                event.preventDefault(); // Prevent form submission if it's invalid
-                alert('Please fill out all required fields correctly.');
-              }
-            });
-          </script>
+          </div>  
           
       </footer>
       
